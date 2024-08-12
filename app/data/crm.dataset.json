@@ -1,0 +1,65 @@
+{
+  "leads": [
+    {
+      "nombre": "Lead 1",
+      "costoAdquisición": 200,
+      "valorDeVida": 1000
+    },
+    {
+      "nombre": "Lead 2",
+      "costoAdquisición": 150,
+      "valorDeVida": 750
+    },
+    {
+      "nombre": "Lead 3",
+      "costoAdquisición": 180,
+      "valorDeVida": 900
+    },
+    {
+      "nombre": "Lead 4",
+      "costoAdquisición": 220,
+      "valorDeVida": 1100
+    },
+    {
+      "nombre": "Lead 5",
+      "costoAdquisición": 170,
+      "valorDeVida": 850
+    },
+    {
+      "nombre": "Lead 6",
+      "costoAdquisición": 210,
+      "valorDeVida": 1050
+    },
+    {
+      "nombre": "Lead 7",
+      "costoAdquisición": 190,
+      "valorDeVida": 950
+    },
+    {
+      "nombre": "Lead 8",
+      "costoAdquisición": 160,
+      "valorDeVida": 800
+    },
+    {
+      "nombre": "Lead 9",
+      "costoAdquisición": 230,
+      "valorDeVida": 1150
+    },
+    {
+      "nombre": "Lead 10",
+      "costoAdquisición": 200,
+      "valorDeVida": 1000
+    },
+    {
+      "nombre": "Lead 11",
+      "costoAdquisición": 250,
+      "valorDeVida": 1200
+    },
+    {
+      "nombre": "Lead 12",
+      "costoAdquisición": 140,
+      "valorDeVida": 700
+    }
+  ],
+  "tasaConversión": 0.08
+}

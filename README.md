@@ -1,68 +1,67 @@
-# Welcome to Remix!
+# Admira test
 
-- [Remix Docs](https://remix.run/docs)
-- [Netlify Functions Overview](https://docs.netlify.com/functions/overview)
+## Requisitos
 
-## Netlify Setup
+- Node >= 20.x.x
+- NPM >= 10.x.x
 
-1. Install the [Netlify CLI](https://docs.netlify.com/cli/get-started/):
+## Desarrollo
 
-```sh
-npm i -g netlify-cli
+Ejecuta el servidor de desarrollo:
+
+```shellscript
+npm run dev
 ```
 
-If you have previously installed the Netlify CLI, you should update it to the latest version:
+## Despliegue
+
+El proyecto ha sido configurado para funcionar en modo SSR, por lo que es fundamental prestar especial atención a los
+permisos asignados al host.
+
+Primero, construye la aplicación para producción:
 
 ```sh
-npm i -g netlify-cli@latest
+npm run build
 ```
 
-2. Sign up and log in to Netlify:
+Luego, ejecuta la aplicación en modo producción:
 
 ```sh
-netlify login
+npm start
 ```
 
-3. Create a new site:
+Asegúrate de que haya desplegado correctamente la salida de `npm run build`:
 
-```sh
-netlify init
-```
+- `build/server`
+- `build/client`
 
-## Development
+## FAQ
 
-Ensure all packages are installed by running:
+### ¿Dónde puedo ver las capturas de pantalla?
 
-```sh
-npm install
-```
+Las capturas de pantalla están ubicadas en la carpeta raíz, dentro del directorio `/screenshots`.
 
-Run
+### ¿Por qué no se utilizó ninguna API Rest?
 
-```sh
-netlify dev
-```
+Aunque intenté implementarla, surgieron varios inconvenientes al crear datos de prueba en múltiples ocasiones. Por ello,
+decidí avanzar con la prueba en lugar de quedarme estancado. Sin embargo, el sistema ha sido diseñado para permitir la
+integración con diferentes fuentes de datos en el futuro, siempre que se cumplan los contratos de interfaz.
 
-Open up [http://localhost:8888](http://localhost:8888), and you're ready to go!
+Para fines de demostración, se integró una API pública que proporciona información sobre la población por año en Estados
+Unidos. Esta funcionalidad se puede encontrar en la página "Población".
 
-### Serve your site locally
+### ¿Por qué no se agregó ningún test?
 
-To serve your site locally in a production-like environment, run
+Para evitar extender aún más la prueba. No obstante, sería ideal utilizar "Cypress" para realizar tests E2E en las
+pantallas más utilizadas, y "Jest" para probar casos específicos como los repositorios.
 
-```sh
-netlify serve
-```
+### ¿Por qué elegiste este diseño de UX/UI?
 
-Your site will be available at [http://localhost:8888](http://localhost:8888). Note that it will not auto-reload when you make changes.
+Creo firmemente que los diseños minimalistas permiten una mayor concentración en las tareas, a diferencia de los diseños
+sobrecargados (como el panel de AWS o Google Analytics). Además, esto contribuye a que los assets sean más ligeros y el
+código más mantenible.
 
-## Deployment
+### ¿Guarda en cache los datos?
 
-There are two ways to deploy your app to Netlify, you can either link your app to your git repo and have it auto deploy changes to Netlify, or you can deploy your app manually. If you've followed the setup instructions already, all you need to do is run this:
-
-```sh
-# preview deployment
-netlify deploy --build
-
-# production deployment
-netlify deploy --build --prod
-```
+Remix incorpora un sistema de almacenamiento en caché al utilizar el método `loader`, lo que permite acceder al estado
+global desde cualquier componente.

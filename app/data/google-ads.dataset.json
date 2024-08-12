@@ -1,0 +1,74 @@
+{
+  "campañas": [
+    {
+      "nombre": "Campaña 1",
+      "impresiones": 1000,
+      "clics": 150,
+      "conversiones": 20,
+      "costo": 200
+    },
+    {
+      "nombre": "Campaña 2",
+      "impresiones": 2000,
+      "clics": 300,
+      "conversiones": 50,
+      "costo": 350
+    },
+    {
+      "nombre": "Campaña 3",
+      "impresiones": 1500,
+      "clics": 220,
+      "conversiones": 30,
+      "costo": 250
+    },
+    {
+      "nombre": "Campaña 4",
+      "impresiones": 2500,
+      "clics": 400,
+      "conversiones": 70,
+      "costo": 400
+    },
+    {
+      "nombre": "Campaña 5",
+      "impresiones": 3000,
+      "clics": 500,
+      "conversiones": 90,
+      "costo": 500
+    },
+    {
+      "nombre": "Campaña 6",
+      "impresiones": 1200,
+      "clics": 180,
+      "conversiones": 25,
+      "costo": 210
+    },
+    {
+      "nombre": "Campaña 7",
+      "impresiones": 1700,
+      "clics": 260,
+      "conversiones": 35,
+      "costo": 270
+    },
+    {
+      "nombre": "Campaña 8",
+      "impresiones": 2200,
+      "clics": 350,
+      "conversiones": 55,
+      "costo": 320
+    },
+    {
+      "nombre": "Campaña 9",
+      "impresiones": 2800,
+      "clics": 450,
+      "conversiones": 80,
+      "costo": 450
+    },
+    {
+      "nombre": "Campaña 10",
+      "impresiones": 3200,
+      "clics": 520,
+      "conversiones": 100,
+      "costo": 550
+    }
+  ]
+}

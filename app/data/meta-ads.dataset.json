@@ -1,0 +1,88 @@
+{
+  "anuncios": [
+    {
+      "nombre": "Anuncio 1",
+      "alcance": 5000,
+      "participación": 300,
+      "gastoPublicidad": 100,
+      "conversiones": 30
+    },
+    {
+      "nombre": "Anuncio 2",
+      "alcance": 7500,
+      "participación": 500,
+      "gastoPublicidad": 150,
+      "conversiones": 45
+    },
+    {
+      "nombre": "Anuncio 3",
+      "alcance": 6000,
+      "participación": 350,
+      "gastoPublicidad": 120,
+      "conversiones": 35
+    },
+    {
+      "nombre": "Anuncio 4",
+      "alcance": 8000,
+      "participación": 550,
+      "gastoPublicidad": 160,
+      "conversiones": 50
+    },
+    {
+      "nombre": "Anuncio 5",
+      "alcance": 7000,
+      "participación": 400,
+      "gastoPublicidad": 130,
+      "conversiones": 40
+    },
+    {
+      "nombre": "Anuncio 6",
+      "alcance": 9000,
+      "participación": 600,
+      "gastoPublicidad": 180,
+      "conversiones": 55
+    },
+    {
+      "nombre": "Anuncio 7",
+      "alcance": 5500,
+      "participación": 320,
+      "gastoPublicidad": 110,
+      "conversiones": 32
+    },
+    {
+      "nombre": "Anuncio 8",
+      "alcance": 6500,
+      "participación": 420,
+      "gastoPublicidad": 140,
+      "conversiones": 42
+    },
+    {
+      "nombre": "Anuncio 9",
+      "alcance": 8500,
+      "participación": 570,
+      "gastoPublicidad": 170,
+      "conversiones": 52
+    },
+    {
+      "nombre": "Anuncio 10",
+      "alcance": 9500,
+      "participación": 620,
+      "gastoPublicidad": 190,
+      "conversiones": 60
+    },
+    {
+      "nombre": "Anuncio 11",
+      "alcance": 10000,
+      "participación": 650,
+      "gastoPublicidad": 200,
+      "conversiones": 65
+    },
+    {
+      "nombre": "Anuncio 12",
+      "alcance": 4000,
+      "participación": 250,
+      "gastoPublicidad": 90,
+      "conversiones": 25
+    }
+  ]
+}
